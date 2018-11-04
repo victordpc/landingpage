@@ -1,2 +1,2 @@
-# landingpage
-Personal landing page
+# LandingPage
+Personal Landing Page

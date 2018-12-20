@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slider {
+    width: 300px;
+    margin-left: 10px;  
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.cuerpo {
+    margin: 0 auto 50px;
+    width: 80%;
+    text-align: center;
+}
+
+.marcador {
+    display: grid;
+    grid-template-columns: 100px auto 50px;
+    grid-template-rows: 100%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.marcador {
+    /* margin: 0 auto; */
+    /* display: inline-block; */
+}
+
+.sliders {
+display: grid;
+grid-template-columns: 200px 500px auto;
+}

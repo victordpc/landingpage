@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ES">
+
+<head>
+    <title>Brecha de género en Disney</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="jQuery/app.js "></script>
+    <link rel="icon" href="img/favicon2.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/disney.css" media="screen" />
+</head>
+
+<body>
+    <div class="titulo">
+        <h1>Un vistazo sobre la brecha de género en las películas de Disney</h1>
+    </div>
+    <div class="cuerpo">
+        <p class="izquierda">¿Cuanto conoces las películas de Disney?</p>
+        <p class="derecha">¿Cuanto conoces las películas de Disney?</p>
+        <p class="izquierda">¿Te sabes los dialogos de todas las películas?</p>
+        <p class="derecha">¿Sabrias decir cuanto hablan las muejeres en las peliculas de Disney?</p>
+        <p class="centro">Prueba nuestro test</p>
+
+        <div class="sliders">
+            <div class="marcador">
+                <label for="range_weight">Coco: </label>
+                <input type="range" id="sCoco" class="slider" mix="0" max="100" step="0.01" list="tickmarks" value="50">
+                <span class="slider_label"></span>
+            </div>
+            <p class="marcador">
+                <label for="range_weight">Buscando a Nemo: </label>
+                <input type="range" id="sNemo" class="slider" mix="0" max="100" step="0.01" list="tickmarks" value="50">
+                <span class="slider_label"></span>
+            </p>
+            <p class="marcador">
+                <label for="range_weight">Buscando a Dory: </label>
+                <input type="range" id="sDory" class="slider" mix="0" max="100" step="0.01" list="tickmarks" value="50">
+                <span class="slider_label"></span>
+            </p>
+            <p class="marcador">
+                <label for="range_weight">In to the woods: </label>
+                <input type="range" id="sIntoTheWoods" class="slider" mix="0" max="100" step="0.01" list="tickmarks"
+                    value="50">
+                <span class="slider_label"></span>
+            </p>
+            <p class="marcador">
+                <label for="range_weight">Brave: </label>
+                <input type="range" id="sBrave" class="slider" mix="0" max="100" step="0.01" list="tickmarks" value="50">
+                <span class="slider_label"></span>
+            </p>
+            <p class="marcador">
+                <label for="range_weight">La sirenita: </label>
+                <input type="range" id="sSirenita" class="slider" mix="0" max="100" step="0.01" list="tickmarks" value="50">
+                <span class="slider_label"></span>
+            </p>
+            <p class="marcador">
+                <label for="range_weight">El Rey León: </label>
+                <input type="range" id="sReyLeon" class="slider" mix="0" max="100" step="0.01" list="tickmarks" value="50">
+                <span class="slider_label"></span>
+            </p>
+            <p class="marcador">
+                <label for="range_weight">El Rey León 2: </label>
+                <input type="range" id="sReyLeon2" class="slider" mix="0" max="100" step="0.01" list="tickmarks" value="50">
+                <span class="slider_label"></span>
+            </p>
+            <p class="marcador">
+                <label for="range_weight">El rey león 3: </label>
+                <input type="range" id="sReyLeon3" class="slider" mix="0" max="100" step="0.01" list="tickmarks" value="50">
+                <span class="slider_label"></span>
+            </p>
+            <p class="marcador">
+                <label for="range_weight">Alicia en el pais de las maravillas: </label>
+                <input type="range" id="sAlicia" class="slider" mix="0" max="100" step="0.01" list="tickmarks" value="50">
+                <span class="slider_label"></span>
+            </p>
+            <p class="marcador">
+                <label for="range_weight">Los rescatadores en cangurolandia: </label>
+                <input type="range" id="sRescatadores" class="slider" mix="0" max="100" step="0.01" list="tickmarks"
+                    value="50">
+                <span class="slider_label"></span>
+            </p>
+            <p class="marcador">
+                <label for="range_weight">Deadpool: </label>
+                <input type="range" id="sDeadpool" class="slider" mix="0" max="100" step="0.01" list="tickmarks" value="50">
+                <span class="slider_label"></span>
+            </p>
+            <p class="marcador">
+                <label for="range_weight">Thor: </label>
+                <input type="range" id="sThor" class="slider" mix="0" max="100" step="0.01" list="tickmarks" value="50">
+                <span class="slider_label"></span>
+            </p>
+            <p class="marcador">
+                <label for="range_weight">Thor Ragnarock: </label>
+                <input type="range" id="sThor3" class="slider" mix="0" max="100" step="0.01" list="tickmarks" value="50">
+                <span class="slider_label"></span>
+            </p>
+            <p class="marcador">
+                <label for="range_weight">Iron Man 2: </label>
+                <input type="range" id="sIronMan2" class="slider" mix="0" max="100" step="0.01" list="tickmarks" value="50">
+                <span class="slider_label"></span>
+            </p>
+            <p class="marcador">
+                <label for="range_weight">Ant-Man: </label>
+                <input type="range" id="sAntMan" class="slider" mix="0" max="100" step="0.01" list="tickmarks" value="50">
+                <span class="slider_label"></span>
+            </p>
+            <p class="marcador">
+                <label for="range_weight">Los Vengadores: </label>
+                <input type="range" id="sTheAvengers" class="slider" mix="0" max="100" step="0.01" list="tickmarks"
+                    value="50">
+                <span class="slider_label"></span>
+            </p>
+            <p class="marcador">
+                <label for="range_weight">Los Vengadores, La era de Ultron: </label>
+                <input type="range" id="sTheAvengersAgeOfUltron" class="slider" mix="0" max="100" step="0.01" list="tickmarks"
+                    value="50">
+                <span class="slider_label"></span>
+            </p>
+            <p class="marcador">
+                <label for="range_weight">Los Vengadores, Infinity War: </label>
+                <input type="range" id="sTheAvengersInfinityWar" class="slider" mix="0" max="100" step="0.01" list="tickmarks"
+                    value="50">
+                <span class="slider_label"></span>
+            </p>
+            <p class="marcador">
+                <label for="range_weight">Capitan América, Civil War: </label>
+                <input type="range" id="sCaptainAmericaCivilWar" class="slider" mix="0" max="100" step="0.01" list="tickmarks"
+                    value="50">
+                <span class="slider_label"></span>
+            </p>
+            <p class="marcador">
+                <label for="range_weight">Logan: </label>
+                <input type="range" id="sLogan" class="slider" mix="0" max="100" step="0.01" list="tickmarks" value="50">
+                <span class="slider_label"></span>
+            </p>
+
+
+
+
+
+
+            <datalist id="tickmarks">
+                <option value="0" label="0%">
+                <option value="10">
+                <option value="20">
+                <option value="30">
+                <option value="40">
+                <option value="50" label="50%">
+                <option value="60">
+                <option value="70">
+                <option value="80">
+                <option value="90">
+                <option value="100" label="100%">
+            </datalist>
+
+        </div>
+        <div id="resultados">
+
+        </div>
+        <button id="calcular">Añadir mi respuesta</button>
+    </div>
+    <div class="footer">
+        <p>Footer</p>
+    </div>
+</body>

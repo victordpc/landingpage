@@ -95,23 +95,29 @@ body {
 	margin: 10px 0px 0px 0px;
 }
 
-#cv:hover,#email:hover{
-	background:#7f8c8d;
+.social-media-special {
+	margin: 9px 5px 5px 5px;
+	height: 34px;
 }
 
-#fcc:hover{
-	background:#006400;
+#cv:hover,
+#email:hover {
+	background: #7f8c8d;
 }
 
-#so:hover{
+#fcc:hover {
+	background: #006400;
+}
+
+#so:hover {
 	background: #FD9827;
 }
 
-#gh:hover{
+#gh:hover {
 	background: #221e1b;
 }
 
-#in:hover{
+#in:hover {
 	background: #0077b5;
 }
 
@@ -152,6 +158,7 @@ body {
 		margin: 10px 10px;
 	}
 }
+
 @media only screen and (max-width: 320px) {
 	.pagina-medio {
 		margin-top: 2em;

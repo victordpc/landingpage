@@ -5,7 +5,8 @@
 
 .slider {
     width: 300px;
-    margin-left: 10px;  
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .footer {
@@ -26,18 +27,19 @@
 
 .marcador {
     display: grid;
-    grid-template-columns: 100px auto 50px;
+    grid-template-columns: 125px auto 40px;
     grid-template-rows: 100%;
     grid-column-start: 2;
     grid-column-end: 3;
+    text-align: right;
 }
 
-.marcador {
-    /* margin: 0 auto; */
-    /* display: inline-block; */
+.grupo {
+    margin: 5px auto;
 }
 
 .sliders {
-display: grid;
-grid-template-columns: 200px 500px auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
 }
